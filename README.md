@@ -13,7 +13,7 @@ kind create cluster --name localwec
  ## 2.Creating a Deployment..
 After  creating a Kubernetes cluster with Kind, the next step is typically to deploy your applications. 
 
-Here’s the deployment manifest file:[Deployment](https://github.com/Siddanth-S/wecgtest-new/blob/main/nodeapp-deployment.yml)
+Here’s the deployment manifest file: [Deployment manifest file](https://github.com/Siddanth-S/wecgtest-new/blob/main/nodeapp-deployment.yml)
 
 Applying the deployment to kind cluster:
 ```
@@ -29,7 +29,7 @@ Pods Running Successfully!!
 ## 3.Configmaps
 ConfigMaps in Kubernetes are used to store configuration data in key-value pairs, allowing us to decouple environment-specific settings from your containerized applications. They are required to manage configuration changes without rebuilding container images, enabling easier updates and flexibility.
 
-Here’s the Configmap file:
+Here’s the Configmap file: [Configmaps manifest file](https://github.com/Siddanth-S/wecgtest-new/blob/main/nodeapp-configmap.yml)
 
 Applying the Configmap to kind cluster
 
