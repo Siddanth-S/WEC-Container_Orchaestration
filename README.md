@@ -22,6 +22,7 @@ kubectl apply -f nodeapp-deployment.yaml
 ```
 This file starts a replicaset which in turn starts the specified number of pods.
 
+<img width="761" alt="Screenshot 2024-10-12 at 3 33 41 PM" src="https://github.com/user-attachments/assets/c25ec8d5-118d-4308-b0eb-56799e188306">
 
 
 Pods Running Successfully!!
