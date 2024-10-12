@@ -10,6 +10,10 @@ kind create cluster --name localwec
 
  This provides us  an isolated environment for testing Kubernetes features without the overhead of a cloud provider.
 
+ ## 3.Dockerizing the application..
+Dockerizing an application involves creating a Docker image that contains the application’s code, dependencies, and environment. This allows the application to run consistently across different environments.Docker image is created from a [Dockerfile]
+
+
  ## 2.Creating a Deployment..
 After  creating a Kubernetes cluster with Kind, the next step is typically to deploy your applications. 
 
