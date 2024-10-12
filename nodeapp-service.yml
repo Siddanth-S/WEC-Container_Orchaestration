@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nodeapp
+spec:
+  selector:
+    app: nodeapp  # Make sure this matches your pod label
+  ports:
+    - protocol: TCP
+      port: 80      # Port on which the service will be exposed
+      targetPort: 3000  # Port on which your app is listening
+  type: NodePort   # You can also use LoadBalancer or ClusterIP based on your needs
