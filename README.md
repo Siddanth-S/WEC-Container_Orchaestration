@@ -13,9 +13,9 @@ kind create cluster --name localwec
  ## 2.Creating a Deployment..
 After  creating a Kubernetes cluster with Kind, the next step is typically to deploy your applications. 
 
-Here’s the deployment manifest file: [Deployment manifest file](https://github.com/Siddanth-S/wecgtest-new/blob/main/nodeapp-deployment.yml)
+Here’s the deployment manifest file:- [Deployment manifest file](https://github.com/Siddanth-S/wecgtest-new/blob/main/nodeapp-deployment.yml)
 
-Applying the deployment to kind cluster:
+Applying the deployment to kind cluster:-
 ```
 kubectl apply -f nodeapp-deployment.yaml
 
@@ -29,14 +29,25 @@ Pods Running Successfully!!
 ## 3.Configmaps
 ConfigMaps in Kubernetes are used to store configuration data in key-value pairs, allowing us to decouple environment-specific settings from your containerized applications. They are required to manage configuration changes without rebuilding container images, enabling easier updates and flexibility.
 
-Here’s the Configmap file: [Configmaps manifest file](https://github.com/Siddanth-S/wecgtest-new/blob/main/nodeapp-configmap.yml)
+Here’s the Configmap file:- [Configmaps manifest file](https://github.com/Siddanth-S/wecgtest-new/blob/main/nodeapp-configmap.yml)
 
-Applying the Configmap to kind cluster
+Applying the Configmap to kind cluster:-
+```
+kubectl apply -f nodeapp-configmap.yaml
+
+```
 
 ## 4.Service 
 Service in Kubernetes allows us to expose an applications externally.There are several Services offered by Kubernetes. But we are using Nodeport Service here.
 
-Here’s the Service file:
+Here’s the Service file: [Service manifest file](https://github.com/Siddanth-S/wecgtest-new/edit/main/nodeapp-service.yml)
+
+Applying the Service to the kind cluster:-
+
+```
+kubectl apply -f nodeapp-dservice.yaml
+
+```
 
 
 
