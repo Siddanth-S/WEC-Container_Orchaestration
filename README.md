@@ -13,7 +13,7 @@ kind create cluster --name localwec
  ## 2.Creating a Deployment..
 After  creating a Kubernetes cluster with Kind, the next step is typically to deploy your applications. 
 
-Here’s the deployment manifest file:
+Here’s the deployment manifest file:[Deployment](https://github.com/Siddanth-S/wecgtest-new/blob/main/nodeapp-deployment.yml)
 
 Applying the deployment to kind cluster:
 ```
