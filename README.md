@@ -13,7 +13,8 @@ kind create cluster --name localwec
  ## 3.Dockerizing the application..
 Dockerizing an application involves creating a Docker image that contains the application’s code, dependencies, and environment. This allows the application to run consistently across different environments.Docker image is created from a [Dockerfile](https://github.com/Siddanth-S/wecgtest-new/blob/main/dockerfile)
 
-Build successful!!
+*Build successful!!*
+
 <img width="1109" alt="Screenshot 2024-10-12 at 3 24 45 PM" src="https://github.com/user-attachments/assets/93ac4f21-cfb7-42ba-810d-eb592f41cf7e">
 
 <img width="902" alt="Screenshot 2024-10-12 at 3 25 45 PM" src="https://github.com/user-attachments/assets/54cdcd13-bf37-465b-9a47-094d7a53fdfe">
@@ -34,7 +35,7 @@ This file starts a replicaset which in turn starts the specified number of pods.
 <img width="761" alt="Screenshot 2024-10-12 at 3 33 41 PM" src="https://github.com/user-attachments/assets/c25ec8d5-118d-4308-b0eb-56799e188306">
 
 
-Pods Running Successfully!!
+*Pods Running Successfully!!*
 
 ## 3.Configmaps
 ConfigMaps in Kubernetes are used to store configuration data in key-value pairs, allowing us to decouple environment-specific settings from your containerized applications. They are required to manage configuration changes without rebuilding container images, enabling easier updates and flexibility.
