@@ -46,7 +46,7 @@ Here’s the Service file: [Service manifest file](https://github.com/Siddanth-S
 Applying the Service to the kind cluster:-
 
 ```
-kubectl apply -f nodeapp-dservice.yaml
+kubectl apply -f nodeapp-service.yaml
 
 ```
 
